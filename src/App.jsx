@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { BlockMath, InlineMath } from "react-katex";
-import "katex/dist/katex.min.css";
 import "./flashcards.css";
 
 export default function App() {
@@ -26,8 +24,17 @@ export default function App() {
   const handleAnswer = (value) =>
     setAnswers({ ...answers, [currentIndex]: value });
 
+  // --- Normalization for fair checking ---
+  const normalize = (expr) => {
+    return expr
+      .replace(/\s+/g, "") // remove all spaces
+      .replace(/\*\*/g, "^") // convert ** to ^
+      .replace(/\*/g, "") // remove *
+      .replace(/\(([^)]+)\)/g, "$1"); // strip unnecessary parentheses
+  };
+
   const checkAnswer = (userInput, correct) =>
-    userInput.replace(/\s+/g, "") === correct.replace(/\s+/g, "");
+    normalize(userInput) === normalize(correct);
 
   const nextCard = () =>
     setCurrentIndex((prev) =>
@@ -72,16 +79,13 @@ export default function App() {
             return (
               <div key={i} className="answer-item">
                 <p>
-                  <strong>Q{i + 1}:</strong>{" "}
-                  <InlineMath math={card.question_latex || card.question} />{" "}
-                  <br />
+                  <strong>Q{i + 1}:</strong> {card.question} <br />
                   Your Answer: {answers[i] || "(none)"}{" "}
                   <span className={correct ? "correct" : "incorrect"}>
                     {correct ? "✓" : "✗"}
                   </span>
                   <br />
-                  Correct Answer:{" "}
-                  <BlockMath math={card.latex_answer || card.answer} />
+                  Correct Answer: {card.answer}
                 </p>
               </div>
             );
@@ -121,7 +125,7 @@ export default function App() {
             exit={{ opacity: 0, x: -50 }}
             transition={{ duration: 0.3 }}
           >
-            <BlockMath math={currentCard.question_latex || currentCard.question} />
+            {currentCard.question}
           </motion.div>
         </AnimatePresence>
       </div>
