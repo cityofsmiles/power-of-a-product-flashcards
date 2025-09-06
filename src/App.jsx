@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { BlockMath, InlineMath } from "react-katex";
+import "katex/dist/katex.min.css";
 import "./flashcards.css";
 
 export default function App() {
@@ -70,13 +72,16 @@ export default function App() {
             return (
               <div key={i} className="answer-item">
                 <p>
-                  <strong>Q{i + 1}:</strong> {card.question} <br />
+                  <strong>Q{i + 1}:</strong>{" "}
+                  <InlineMath math={card.question_latex || card.question} />{" "}
+                  <br />
                   Your Answer: {answers[i] || "(none)"}{" "}
                   <span className={correct ? "correct" : "incorrect"}>
                     {correct ? "✓" : "✗"}
                   </span>
                   <br />
-                  Correct Answer: {card.answer}
+                  Correct Answer:{" "}
+                  <BlockMath math={card.latex_answer || card.answer} />
                 </p>
               </div>
             );
@@ -99,7 +104,7 @@ export default function App() {
 
   return (
     <div className="flashcards-container">
-      <h1>Adding and Subtracting Terms Flashcards</h1>
+      <h1>Power of a Product Flashcards</h1>
       <h3 style={{ fontWeight: "normal", marginBottom: "1rem" }}>
         by Jonathan R. Bacolod, LPT
       </h3>
@@ -116,7 +121,7 @@ export default function App() {
             exit={{ opacity: 0, x: -50 }}
             transition={{ duration: 0.3 }}
           >
-            {currentCard.question}
+            <BlockMath math={currentCard.question_latex || currentCard.question} />
           </motion.div>
         </AnimatePresence>
       </div>
