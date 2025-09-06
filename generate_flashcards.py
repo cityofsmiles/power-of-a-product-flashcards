@@ -15,16 +15,23 @@ flashcards = []
 def format_expr(expr):
     """Format Sympy expression into plain text with ^ for exponents, no *."""
     s = sp.sstr(expr)
-    s = s.replace("**", "^")  # Python power -> ^
-    s = s.replace("*", "")    # Remove multiplication signs
-    s = s.replace("^1", "")   # Remove ^1
+    s = s.replace("**", "^")   # Python power -> ^
+    s = s.replace("*", "")     # Remove multiplication signs
+    s = s.replace("^1", "")    # Remove ^1
     return s
 
 def format_question(c, v1, m, v2, n, p):
-    """Build a clean question string with no ^1 and no boring ^1 outside."""
-    part1 = f"{c}"
+    """Build a clean question string with coefficient rules."""
+    # Handle coefficient formatting
+    if c == -1:
+        part1 = "-"  # just a minus sign
+    else:
+        part1 = f"{c}"
+
+    # Handle variable exponents
     part2 = f"{v1}^{m}" if m != 1 else f"{v1}" if m != 0 else ""
     part3 = f"{v2}^{n}" if n != 1 else f"{v2}" if n != 0 else ""
+
     base = part1 + part2 + part3
     return f"({base})^{p}"
 
