@@ -1,0 +1,602 @@
+[
+  {
+    "question": "(5z^-3a^0)^-3",
+    "answer": "z**9/125",
+    "pretty_answer": " 9 \nz  \n\u2500\u2500\u2500\n125"
+  },
+  {
+    "question": "(1a^1b^2)^3",
+    "answer": "a**3*b**6",
+    "pretty_answer": " 3  6\na \u22c5b "
+  },
+  {
+    "question": "(-4b^3z^-2)^3",
+    "answer": "-64*b**9/z**6",
+    "pretty_answer": "     9 \n-64\u22c5b  \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n   6   \n  z    "
+  },
+  {
+    "question": "(-1x^-2z^2)^2",
+    "answer": "z**4/x**4",
+    "pretty_answer": " 4\nz \n\u2500\u2500\n 4\nx "
+  },
+  {
+    "question": "(1z^-1x^-1)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(-1z^-3x^3)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(3b^2a^-1)^2",
+    "answer": "9*b**4/a**2",
+    "pretty_answer": "   4\n9\u22c5b \n\u2500\u2500\u2500\u2500\n  2 \n a  "
+  },
+  {
+    "question": "(-1a^1b^2)^2",
+    "answer": "a**2*b**4",
+    "pretty_answer": " 2  4\na \u22c5b "
+  },
+  {
+    "question": "(4b^0a^-2)^1",
+    "answer": "4/a**2",
+    "pretty_answer": "4 \n\u2500\u2500\n 2\na "
+  },
+  {
+    "question": "(-3a^-1b^2)^2",
+    "answer": "9*b**4/a**2",
+    "pretty_answer": "   4\n9\u22c5b \n\u2500\u2500\u2500\u2500\n  2 \n a  "
+  },
+  {
+    "question": "(5a^0b^2)^-2",
+    "answer": "1/(25*b**4)",
+    "pretty_answer": "  1  \n\u2500\u2500\u2500\u2500\u2500\n    4\n25\u22c5b "
+  },
+  {
+    "question": "(-2a^-1z^1)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(-3a^-3b^2)^2",
+    "answer": "9*b**4/a**6",
+    "pretty_answer": "   4\n9\u22c5b \n\u2500\u2500\u2500\u2500\n  6 \n a  "
+  },
+  {
+    "question": "(2a^1b^1)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(4a^-2y^-3)^-2",
+    "answer": "a**4*y**6/16",
+    "pretty_answer": " 4  6\na \u22c5y \n\u2500\u2500\u2500\u2500\u2500\n 16  "
+  },
+  {
+    "question": "(-1a^-2b^1)^-3",
+    "answer": "-a**6/b**3",
+    "pretty_answer": "  6 \n-a  \n\u2500\u2500\u2500\u2500\n  3 \n b  "
+  },
+  {
+    "question": "(5z^-2x^3)^3",
+    "answer": "125*x**9/z**6",
+    "pretty_answer": "     9\n125\u22c5x \n\u2500\u2500\u2500\u2500\u2500\u2500\n   6  \n  z   "
+  },
+  {
+    "question": "(-5a^0y^-1)^1",
+    "answer": "-5/y",
+    "pretty_answer": "-5 \n\u2500\u2500\u2500\n y "
+  },
+  {
+    "question": "(4b^3y^-3)^2",
+    "answer": "16*b**6/y**6",
+    "pretty_answer": "    6\n16\u22c5b \n\u2500\u2500\u2500\u2500\u2500\n  6  \n y   "
+  },
+  {
+    "question": "(-4x^2a^-2)^1",
+    "answer": "-4*x**2/a**2",
+    "pretty_answer": "    2 \n-4\u22c5x  \n\u2500\u2500\u2500\u2500\u2500\u2500\n   2  \n  a   "
+  },
+  {
+    "question": "(1x^1z^-2)^1",
+    "answer": "x/z**2",
+    "pretty_answer": "x \n\u2500\u2500\n 2\nz "
+  },
+  {
+    "question": "(-1y^-2b^2)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(4y^1a^2)^-2",
+    "answer": "1/(16*a**4*y**2)",
+    "pretty_answer": "   1    \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n    4  2\n16\u22c5a \u22c5y "
+  },
+  {
+    "question": "(-2b^-1x^3)^-3",
+    "answer": "-b**3/(8*x**9)",
+    "pretty_answer": "  3 \n-b  \n\u2500\u2500\u2500\u2500\n   9\n8\u22c5x "
+  },
+  {
+    "question": "(4z^3y^3)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(4z^-1y^3)^-2",
+    "answer": "z**2/(16*y**6)",
+    "pretty_answer": "  2  \n z   \n\u2500\u2500\u2500\u2500\u2500\n    6\n16\u22c5y "
+  },
+  {
+    "question": "(3x^-1z^-2)^-2",
+    "answer": "x**2*z**4/9",
+    "pretty_answer": " 2  4\nx \u22c5z \n\u2500\u2500\u2500\u2500\u2500\n  9  "
+  },
+  {
+    "question": "(4z^3a^3)^-3",
+    "answer": "1/(64*a**9*z**9)",
+    "pretty_answer": "   1    \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n    9  9\n64\u22c5a \u22c5z "
+  },
+  {
+    "question": "(-3a^3y^3)^2",
+    "answer": "9*a**6*y**6",
+    "pretty_answer": "   6  6\n9\u22c5a \u22c5y "
+  },
+  {
+    "question": "(1x^2y^3)^-3",
+    "answer": "1/(x**6*y**9)",
+    "pretty_answer": "  1  \n\u2500\u2500\u2500\u2500\u2500\n 6  9\nx \u22c5y "
+  },
+  {
+    "question": "(-1z^-2b^-3)^3",
+    "answer": "-1/(b**9*z**6)",
+    "pretty_answer": " -1  \n\u2500\u2500\u2500\u2500\u2500\n 9  6\nb \u22c5z "
+  },
+  {
+    "question": "(3a^1y^-3)^1",
+    "answer": "3*a/y**3",
+    "pretty_answer": "3\u22c5a\n\u2500\u2500\u2500\n 3 \ny  "
+  },
+  {
+    "question": "(5b^-3z^-1)^-1",
+    "answer": "b**3*z/5",
+    "pretty_answer": " 3  \nb \u22c5z\n\u2500\u2500\u2500\u2500\n 5  "
+  },
+  {
+    "question": "(5x^2a^0)^3",
+    "answer": "125*x**6",
+    "pretty_answer": "     6\n125\u22c5x "
+  },
+  {
+    "question": "(-3b^0a^1)^2",
+    "answer": "9*a**2",
+    "pretty_answer": "   2\n9\u22c5a "
+  },
+  {
+    "question": "(-4z^-2a^-3)^2",
+    "answer": "16/(a**6*z**4)",
+    "pretty_answer": " 16  \n\u2500\u2500\u2500\u2500\u2500\n 6  4\na \u22c5z "
+  },
+  {
+    "question": "(3z^0y^-3)^-1",
+    "answer": "y**3/3",
+    "pretty_answer": " 3\ny \n\u2500\u2500\n3 "
+  },
+  {
+    "question": "(-5z^3b^0)^2",
+    "answer": "25*z**6",
+    "pretty_answer": "    6\n25\u22c5z "
+  },
+  {
+    "question": "(-3y^-3z^3)^1",
+    "answer": "-3*z**3/y**3",
+    "pretty_answer": "    3 \n-3\u22c5z  \n\u2500\u2500\u2500\u2500\u2500\u2500\n   3  \n  y   "
+  },
+  {
+    "question": "(1x^3b^2)^-1",
+    "answer": "1/(b**2*x**3)",
+    "pretty_answer": "  1  \n\u2500\u2500\u2500\u2500\u2500\n 2  3\nb \u22c5x "
+  },
+  {
+    "question": "(4z^-1x^0)^3",
+    "answer": "64/z**3",
+    "pretty_answer": "64\n\u2500\u2500\n 3\nz "
+  },
+  {
+    "question": "(-2b^2y^-1)^1",
+    "answer": "-2*b**2/y",
+    "pretty_answer": "    2 \n-2\u22c5b  \n\u2500\u2500\u2500\u2500\u2500\u2500\n  y   "
+  },
+  {
+    "question": "(-4y^-3a^-1)^1",
+    "answer": "-4/(a*y**3)",
+    "pretty_answer": "-4  \n\u2500\u2500\u2500\u2500\n   3\na\u22c5y "
+  },
+  {
+    "question": "(2b^-1y^-3)^3",
+    "answer": "8/(b**3*y**9)",
+    "pretty_answer": "  8  \n\u2500\u2500\u2500\u2500\u2500\n 3  9\nb \u22c5y "
+  },
+  {
+    "question": "(1b^3y^-2)^3",
+    "answer": "b**9/y**6",
+    "pretty_answer": " 9\nb \n\u2500\u2500\n 6\ny "
+  },
+  {
+    "question": "(1x^-2b^-3)^2",
+    "answer": "1/(b**6*x**4)",
+    "pretty_answer": "  1  \n\u2500\u2500\u2500\u2500\u2500\n 6  4\nb \u22c5x "
+  },
+  {
+    "question": "(-3x^-2a^-3)^-1",
+    "answer": "-a**3*x**2/3",
+    "pretty_answer": "  3  2 \n-a \u22c5x  \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n   3   "
+  },
+  {
+    "question": "(4y^-1z^1)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(-1a^-1x^2)^1",
+    "answer": "-x**2/a",
+    "pretty_answer": "  2 \n-x  \n\u2500\u2500\u2500\u2500\n a  "
+  },
+  {
+    "question": "(-3y^-1x^3)^-2",
+    "answer": "y**2/(9*x**6)",
+    "pretty_answer": "  2 \n y  \n\u2500\u2500\u2500\u2500\n   6\n9\u22c5x "
+  },
+  {
+    "question": "(1b^0y^3)^-2",
+    "answer": "y**(-6)",
+    "pretty_answer": "1 \n\u2500\u2500\n 6\ny "
+  },
+  {
+    "question": "(5y^2z^-3)^-3",
+    "answer": "z**9/(125*y**6)",
+    "pretty_answer": "   9  \n  z   \n\u2500\u2500\u2500\u2500\u2500\u2500\n     6\n125\u22c5y "
+  },
+  {
+    "question": "(-5z^-1a^1)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(-3b^3a^2)^-2",
+    "answer": "1/(9*a**4*b**6)",
+    "pretty_answer": "   1   \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n   4  6\n9\u22c5a \u22c5b "
+  },
+  {
+    "question": "(-5z^-1x^2)^2",
+    "answer": "25*x**4/z**2",
+    "pretty_answer": "    4\n25\u22c5x \n\u2500\u2500\u2500\u2500\u2500\n  2  \n z   "
+  },
+  {
+    "question": "(-3z^1y^-1)^-1",
+    "answer": "-y/(3*z)",
+    "pretty_answer": "-y \n\u2500\u2500\u2500\n3\u22c5z"
+  },
+  {
+    "question": "(1b^0a^-2)^1",
+    "answer": "a**(-2)",
+    "pretty_answer": "1 \n\u2500\u2500\n 2\na "
+  },
+  {
+    "question": "(-4y^-2x^2)^3",
+    "answer": "-64*x**6/y**6",
+    "pretty_answer": "     6 \n-64\u22c5x  \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n   6   \n  y    "
+  },
+  {
+    "question": "(-2z^-2x^-1)^-2",
+    "answer": "x**2*z**4/4",
+    "pretty_answer": " 2  4\nx \u22c5z \n\u2500\u2500\u2500\u2500\u2500\n  4  "
+  },
+  {
+    "question": "(5x^3b^1)^3",
+    "answer": "125*b**3*x**9",
+    "pretty_answer": "     3  9\n125\u22c5b \u22c5x "
+  },
+  {
+    "question": "(5x^2z^2)^3",
+    "answer": "125*x**6*z**6",
+    "pretty_answer": "     6  6\n125\u22c5x \u22c5z "
+  },
+  {
+    "question": "(5a^1y^3)^3",
+    "answer": "125*a**3*y**9",
+    "pretty_answer": "     3  9\n125\u22c5a \u22c5y "
+  },
+  {
+    "question": "(-1y^-3x^-3)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(5z^0b^0)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(-4z^-2y^-3)^2",
+    "answer": "16/(y**6*z**4)",
+    "pretty_answer": " 16  \n\u2500\u2500\u2500\u2500\u2500\n 6  4\ny \u22c5z "
+  },
+  {
+    "question": "(-1a^-3y^0)^-2",
+    "answer": "a**6",
+    "pretty_answer": " 6\na "
+  },
+  {
+    "question": "(2x^-2b^-2)^-3",
+    "answer": "b**6*x**6/8",
+    "pretty_answer": " 6  6\nb \u22c5x \n\u2500\u2500\u2500\u2500\u2500\n  8  "
+  },
+  {
+    "question": "(5z^-1x^3)^1",
+    "answer": "5*x**3/z",
+    "pretty_answer": "   3\n5\u22c5x \n\u2500\u2500\u2500\u2500\n z  "
+  },
+  {
+    "question": "(2b^2a^0)^-2",
+    "answer": "1/(4*b**4)",
+    "pretty_answer": " 1  \n\u2500\u2500\u2500\u2500\n   4\n4\u22c5b "
+  },
+  {
+    "question": "(1z^0b^-2)^-2",
+    "answer": "b**4",
+    "pretty_answer": " 4\nb "
+  },
+  {
+    "question": "(-1z^-3y^2)^-2",
+    "answer": "z**6/y**4",
+    "pretty_answer": " 6\nz \n\u2500\u2500\n 4\ny "
+  },
+  {
+    "question": "(-4a^-1b^-3)^1",
+    "answer": "-4/(a*b**3)",
+    "pretty_answer": "-4  \n\u2500\u2500\u2500\u2500\n   3\na\u22c5b "
+  },
+  {
+    "question": "(5y^3b^-2)^-2",
+    "answer": "b**4/(25*y**6)",
+    "pretty_answer": "  4  \n b   \n\u2500\u2500\u2500\u2500\u2500\n    6\n25\u22c5y "
+  },
+  {
+    "question": "(-3y^-2x^-3)^-1",
+    "answer": "-x**3*y**2/3",
+    "pretty_answer": "  3  2 \n-x \u22c5y  \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n   3   "
+  },
+  {
+    "question": "(2y^-2b^-3)^-1",
+    "answer": "b**3*y**2/2",
+    "pretty_answer": " 3  2\nb \u22c5y \n\u2500\u2500\u2500\u2500\u2500\n  2  "
+  },
+  {
+    "question": "(1y^0x^-3)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(-5x^1z^-1)^-3",
+    "answer": "-z**3/(125*x**3)",
+    "pretty_answer": "   3  \n -z   \n\u2500\u2500\u2500\u2500\u2500\u2500\n     3\n125\u22c5x "
+  },
+  {
+    "question": "(1z^-3y^2)^-3",
+    "answer": "z**9/y**6",
+    "pretty_answer": " 9\nz \n\u2500\u2500\n 6\ny "
+  },
+  {
+    "question": "(3z^1x^-2)^-1",
+    "answer": "x**2/(3*z)",
+    "pretty_answer": " 2 \nx  \n\u2500\u2500\u2500\n3\u22c5z"
+  },
+  {
+    "question": "(5a^1b^2)^2",
+    "answer": "25*a**2*b**4",
+    "pretty_answer": "    2  4\n25\u22c5a \u22c5b "
+  },
+  {
+    "question": "(5y^0z^2)^-3",
+    "answer": "1/(125*z**6)",
+    "pretty_answer": "  1   \n\u2500\u2500\u2500\u2500\u2500\u2500\n     6\n125\u22c5z "
+  },
+  {
+    "question": "(-4b^2y^-3)^-2",
+    "answer": "y**6/(16*b**4)",
+    "pretty_answer": "  6  \n y   \n\u2500\u2500\u2500\u2500\u2500\n    4\n16\u22c5b "
+  },
+  {
+    "question": "(-1b^2z^-3)^3",
+    "answer": "-b**6/z**9",
+    "pretty_answer": "  6 \n-b  \n\u2500\u2500\u2500\u2500\n  9 \n z  "
+  },
+  {
+    "question": "(2b^-2a^-2)^2",
+    "answer": "4/(a**4*b**4)",
+    "pretty_answer": "  4  \n\u2500\u2500\u2500\u2500\u2500\n 4  4\na \u22c5b "
+  },
+  {
+    "question": "(-2x^-3y^0)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(-3z^-1y^2)^3",
+    "answer": "-27*y**6/z**3",
+    "pretty_answer": "     6 \n-27\u22c5y  \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n   3   \n  z    "
+  },
+  {
+    "question": "(4a^-2x^3)^-1",
+    "answer": "a**2/(4*x**3)",
+    "pretty_answer": "  2 \n a  \n\u2500\u2500\u2500\u2500\n   3\n4\u22c5x "
+  },
+  {
+    "question": "(-1b^2x^1)^2",
+    "answer": "b**4*x**2",
+    "pretty_answer": " 4  2\nb \u22c5x "
+  },
+  {
+    "question": "(5a^-1z^2)^-3",
+    "answer": "a**3/(125*z**6)",
+    "pretty_answer": "   3  \n  a   \n\u2500\u2500\u2500\u2500\u2500\u2500\n     6\n125\u22c5z "
+  },
+  {
+    "question": "(5a^-3y^0)^3",
+    "answer": "125/a**9",
+    "pretty_answer": "125\n\u2500\u2500\u2500\n 9 \na  "
+  },
+  {
+    "question": "(3x^-3a^-2)^-2",
+    "answer": "a**4*x**6/9",
+    "pretty_answer": " 4  6\na \u22c5x \n\u2500\u2500\u2500\u2500\u2500\n  9  "
+  },
+  {
+    "question": "(-4a^3z^2)^-2",
+    "answer": "1/(16*a**6*z**4)",
+    "pretty_answer": "   1    \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n    6  4\n16\u22c5a \u22c5z "
+  },
+  {
+    "question": "(-3a^-3y^1)^-3",
+    "answer": "-a**9/(27*y**3)",
+    "pretty_answer": "  9  \n-a   \n\u2500\u2500\u2500\u2500\u2500\n    3\n27\u22c5y "
+  },
+  {
+    "question": "(2z^3a^-3)^1",
+    "answer": "2*z**3/a**3",
+    "pretty_answer": "   3\n2\u22c5z \n\u2500\u2500\u2500\u2500\n  3 \n a  "
+  },
+  {
+    "question": "(-5b^-3z^3)^-3",
+    "answer": "-b**9/(125*z**9)",
+    "pretty_answer": "   9  \n -b   \n\u2500\u2500\u2500\u2500\u2500\u2500\n     9\n125\u22c5z "
+  },
+  {
+    "question": "(1x^0z^-3)^-1",
+    "answer": "z**3",
+    "pretty_answer": " 3\nz "
+  },
+  {
+    "question": "(-5y^-2x^2)^-2",
+    "answer": "y**4/(25*x**4)",
+    "pretty_answer": "  4  \n y   \n\u2500\u2500\u2500\u2500\u2500\n    4\n25\u22c5x "
+  },
+  {
+    "question": "(-3x^3b^2)^-2",
+    "answer": "1/(9*b**4*x**6)",
+    "pretty_answer": "   1   \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n   4  6\n9\u22c5b \u22c5x "
+  },
+  {
+    "question": "(4x^1a^-3)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(4b^2y^0)^-1",
+    "answer": "1/(4*b**2)",
+    "pretty_answer": " 1  \n\u2500\u2500\u2500\u2500\n   2\n4\u22c5b "
+  },
+  {
+    "question": "(-1z^0b^2)^-3",
+    "answer": "-1/b**6",
+    "pretty_answer": "-1 \n\u2500\u2500\u2500\n 6 \nb  "
+  },
+  {
+    "question": "(-1a^-3b^1)^-2",
+    "answer": "a**6/b**2",
+    "pretty_answer": " 6\na \n\u2500\u2500\n 2\nb "
+  },
+  {
+    "question": "(-2b^-3z^-3)^2",
+    "answer": "4/(b**6*z**6)",
+    "pretty_answer": "  4  \n\u2500\u2500\u2500\u2500\u2500\n 6  6\nb \u22c5z "
+  },
+  {
+    "question": "(-3x^3a^2)^2",
+    "answer": "9*a**4*x**6",
+    "pretty_answer": "   4  6\n9\u22c5a \u22c5x "
+  },
+  {
+    "question": "(2a^1y^1)^2",
+    "answer": "4*a**2*y**2",
+    "pretty_answer": "   2  2\n4\u22c5a \u22c5y "
+  },
+  {
+    "question": "(-3a^1z^-1)^2",
+    "answer": "9*a**2/z**2",
+    "pretty_answer": "   2\n9\u22c5a \n\u2500\u2500\u2500\u2500\n  2 \n z  "
+  },
+  {
+    "question": "(-3z^-2x^3)^1",
+    "answer": "-3*x**3/z**2",
+    "pretty_answer": "    3 \n-3\u22c5x  \n\u2500\u2500\u2500\u2500\u2500\u2500\n   2  \n  z   "
+  },
+  {
+    "question": "(5z^1a^0)^-2",
+    "answer": "1/(25*z**2)",
+    "pretty_answer": "  1  \n\u2500\u2500\u2500\u2500\u2500\n    2\n25\u22c5z "
+  },
+  {
+    "question": "(4y^-3b^-1)^2",
+    "answer": "16/(b**2*y**6)",
+    "pretty_answer": " 16  \n\u2500\u2500\u2500\u2500\u2500\n 2  6\nb \u22c5y "
+  },
+  {
+    "question": "(-5z^-1a^1)^-1",
+    "answer": "-z/(5*a)",
+    "pretty_answer": "-z \n\u2500\u2500\u2500\n5\u22c5a"
+  },
+  {
+    "question": "(-2b^-2x^-2)^0",
+    "answer": "1",
+    "pretty_answer": "1"
+  },
+  {
+    "question": "(-3x^3b^1)^-1",
+    "answer": "-1/(3*b*x**3)",
+    "pretty_answer": " -1   \n\u2500\u2500\u2500\u2500\u2500\u2500\n     3\n3\u22c5b\u22c5x "
+  },
+  {
+    "question": "(4z^0y^-3)^2",
+    "answer": "16/y**6",
+    "pretty_answer": "16\n\u2500\u2500\n 6\ny "
+  },
+  {
+    "question": "(-5z^1y^-1)^-3",
+    "answer": "-y**3/(125*z**3)",
+    "pretty_answer": "   3  \n -y   \n\u2500\u2500\u2500\u2500\u2500\u2500\n     3\n125\u22c5z "
+  },
+  {
+    "question": "(-3b^3x^-3)^3",
+    "answer": "-27*b**9/x**9",
+    "pretty_answer": "     9 \n-27\u22c5b  \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n   9   \n  x    "
+  },
+  {
+    "question": "(1x^0z^-1)^-3",
+    "answer": "z**3",
+    "pretty_answer": " 3\nz "
+  },
+  {
+    "question": "(-1x^-2a^0)^-1",
+    "answer": "-x**2",
+    "pretty_answer": "  2\n-x "
+  },
+  {
+    "question": "(3a^2x^-3)^-1",
+    "answer": "x**3/(3*a**2)",
+    "pretty_answer": "  3 \n x  \n\u2500\u2500\u2500\u2500\n   2\n3\u22c5a "
+  },
+  {
+    "question": "(-5y^-2a^2)^3",
+    "answer": "-125*a**6/y**6",
+    "pretty_answer": "      6 \n-125\u22c5a  \n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n    6   \n   y    "
+  },
+  {
+    "question": "(-5a^-2b^-2)^-2",
+    "answer": "a**4*b**4/25",
+    "pretty_answer": " 4  4\na \u22c5b \n\u2500\u2500\u2500\u2500\u2500\n 25  "
+  }
+]
