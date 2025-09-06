@@ -1,6 +1,7 @@
 import sympy as sp
 import random
 import json
+import os
 
 # Variables to use
 variables = [sp.symbols(v) for v in ["x", "y", "z", "a", "b"]]
@@ -13,38 +14,53 @@ flashcards = []
 
 def format_expr(expr):
     """Format Sympy expression into plain text with ^ for exponents, no *."""
-    s = sp.sstr(expr)  # Sympy string
+    s = sp.sstr(expr)
     s = s.replace("**", "^")  # Python power -> ^
     s = s.replace("*", "")    # Remove multiplication signs
+    s = s.replace("^1", "")   # Remove ^1
     return s
 
+def format_question(c, v1, m, v2, n, p):
+    """Build a clean question string with no ^1 and no boring ^1 outside."""
+    part1 = f"{c}"
+    part2 = f"{v1}^{m}" if m != 1 else f"{v1}" if m != 0 else ""
+    part3 = f"{v2}^{n}" if n != 1 else f"{v2}" if n != 0 else ""
+    base = part1 + part2 + part3
+    return f"({base})^{p}"
+
 def generate_flashcard():
-    c = random.choice([i for i in coeff_range if i != 0])  # nonzero coefficient
-    v1, v2 = random.sample(variables, 2)
-    m = random.choice(exp_range)
-    n = random.choice(exp_range)
-    p = random.choice(exp_range)
+    while True:
+        c = random.choice([i for i in coeff_range if i != 0])  # nonzero coefficient
+        v1, v2 = random.sample(variables, 2)
+        m = random.choice(exp_range)
+        n = random.choice(exp_range)
+        p = random.choice(exp_range)
 
-    # Expression
-    expr = (c * v1**m * v2**n)**p
+        # Skip boring outside exponent = 1
+        if p == 1:
+            continue
 
-    # Simplify with Sympy
-    simplified = sp.simplify(expr)
+        expr = (c * v1**m * v2**n)**p
+        simplified = sp.simplify(expr)
 
-    # Question in plain text
-    question = f"({c}{v1}^{m}{v2}^{n})^{p}"
+        question = format_question(c, v1, m, v2, n, p)
 
-    return {
-        "question": question,
-        "answer": format_expr(simplified)   # clean plain-text answer
-    }
+        return {
+            "question": question,
+            "answer": format_expr(simplified)
+        }
 
 # Generate 120 flashcards
 for _ in range(120):
     flashcards.append(generate_flashcard())
 
-# Save to JSON
-with open("flashcards.json", "w") as f:
+# Ensure public folder exists
+output_dir = os.path.join(os.getcwd(), "public")
+os.makedirs(output_dir, exist_ok=True)
+
+# Save to public/flashcards.json
+output_path = os.path.join(output_dir, "flashcards.json")
+with open(output_path, "w") as f:
     json.dump(flashcards, f, indent=2)
 
-print("✅ flashcards.json generated with", len(flashcards), "flashcards.")
+print(f"✅ flashcards.json generated with {len(flashcards)} flashcards at {output_path}")
