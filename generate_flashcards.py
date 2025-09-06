@@ -6,10 +6,18 @@ import json
 variables = [sp.symbols(v) for v in ["x", "y", "z", "a", "b"]]
 
 # Integer ranges
-coeff_range = list(range(-5, 6))  # avoid 0 later
-exp_range = list(range(-3, 4))    # -3 to 3
+coeff_range = list(range(-5, 6))  # coefficients from -5 to 5
+exp_range = list(range(-3, 4))    # exponents from -3 to 3
 
 flashcards = []
+
+def format_expr(expr):
+    """Format Sympy expression into plain text with ^ for exponents."""
+    s = sp.sstr(expr)  # Sympy string
+    # Replace ** with ^ and remove * between variables/numbers
+    s = s.replace("**", "^")
+    s = s.replace("*", "")
+    return s
 
 def generate_flashcard():
     c = random.choice([i for i in coeff_range if i != 0])  # nonzero coefficient
@@ -18,22 +26,21 @@ def generate_flashcard():
     n = random.choice(exp_range)
     p = random.choice(exp_range)
 
+    # Expression
     expr = (c * v1**m * v2**n)**p
 
-    # Simplify with sympy
+    # Simplify with Sympy
     simplified = sp.simplify(expr)
 
-    # Handle pretty printing
+    # Question in plain text
     question = f"({c}{v1}^{m}{v2}^{n})^{p}"
-    answer = sp.pretty(simplified)
 
     return {
         "question": question,
-        "answer": str(simplified),   # plain string for frontend checking
-        "pretty_answer": answer      # nice display for UI
+        "answer": format_expr(simplified)   # student-friendly format
     }
 
-# Generate 120 flashcards (40 per case approx.)
+# Generate 120 flashcards
 for _ in range(120):
     flashcards.append(generate_flashcard())
 
