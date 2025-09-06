@@ -1,482 +1,482 @@
 [
   {
-    "question": "(4z^3y^3)^-3",
-    "answer": "1/(64y^9z^9)"
+    "question": "(-2x^2a^2)^-2",
+    "answer": "1/(4a^4x^4)"
   },
   {
-    "question": "(-5a^-2z^-1)^-3",
-    "answer": "-a^6z^3/125"
+    "question": "(-5a^-2z^0)^-2",
+    "answer": "a^4/25"
   },
   {
-    "question": "(5y^1z^-3)^2",
-    "answer": "25y^2/z^6"
+    "question": "(-4x^-1a^-1)^-3",
+    "answer": "-a^3x^3/64"
   },
   {
-    "question": "(2y^1b^1)^-1",
-    "answer": "1/(2by)"
+    "question": "(4y^1z^1)^1",
+    "answer": "4yz"
   },
   {
-    "question": "(5b^-2y^1)^-2",
-    "answer": "b^4/(25y^2)"
+    "question": "(5a^2z^-3)^-1",
+    "answer": "z^3/(5a^2)"
   },
   {
-    "question": "(-2z^-1b^3)^1",
-    "answer": "-2b^3/z"
+    "question": "(-3x^-1y^1)^-3",
+    "answer": "-x^3/(27y^3)"
   },
   {
-    "question": "(4z^3x^2)^-2",
-    "answer": "1/(16x^4z^6)"
+    "question": "(-4x^0b^3)^3",
+    "answer": "-64b^9"
   },
   {
-    "question": "(3x^1y^1)^-1",
-    "answer": "1/(3xy)"
+    "question": "(-2x^-2b^-1)^2",
+    "answer": "4/(b^2x^4)"
   },
   {
-    "question": "(-3a^-1x^0)^2",
-    "answer": "9/a^2"
+    "question": "(-2y^-1b^-2)^-1",
+    "answer": "-b^2y/2"
   },
   {
-    "question": "(2b^-2a^0)^-1",
-    "answer": "b^2/2"
+    "question": "(4y^-2z^2)^-3",
+    "answer": "y^6/(64z^6)"
   },
   {
-    "question": "(-5a^-2y^-3)^-1",
-    "answer": "-a^2y^3/5"
+    "question": "(5x^3z^-1)^-1",
+    "answer": "z/(5x^3)"
   },
   {
-    "question": "(1b^-2y^2)^-2",
-    "answer": "b^4/y^4"
+    "question": "(2y^3a^2)^-1",
+    "answer": "1/(2a^2y^3)"
   },
   {
-    "question": "(2a^-2b^-1)^-1",
-    "answer": "a^2b/2"
+    "question": "(2y^-3z^-2)^3",
+    "answer": "8/(y^9z^6)"
   },
   {
-    "question": "(3y^2x^2)^0",
+    "question": "(-1z^-3y^-3)^0",
     "answer": "1"
   },
   {
-    "question": "(-5y^-1z^-2)^0",
+    "question": "(1b^2z^-2)^-1",
+    "answer": "z^2/b^2"
+  },
+  {
+    "question": "(5b^2z^-2)^0",
     "answer": "1"
   },
   {
-    "question": "(-1y^3b^-1)^0",
+    "question": "(4z^-2y^-1)^1",
+    "answer": "4/(yz^2)"
+  },
+  {
+    "question": "(1b^1a^-3)^3",
+    "answer": "b^3/a^9"
+  },
+  {
+    "question": "(-5a^-2x^1)^-1",
+    "answer": "-a^2/(5x)"
+  },
+  {
+    "question": "(3x^1z^2)^2",
+    "answer": "9x^2z^4"
+  },
+  {
+    "question": "(2y^-3x^-2)^-2",
+    "answer": "x^4y^6/4"
+  },
+  {
+    "question": "(2b^2x^-3)^3",
+    "answer": "8b^6/x^9"
+  },
+  {
+    "question": "(-2y^-1x^0)^3",
+    "answer": "-8/y^3"
+  },
+  {
+    "question": "(-2z^3x^-3)^-1",
+    "answer": "-x^3/(2z^3)"
+  },
+  {
+    "question": "(4a^2y^-3)^3",
+    "answer": "64a^6/y^9"
+  },
+  {
+    "question": "(-4y^-1z^-2)^0",
     "answer": "1"
   },
   {
-    "question": "(1x^3a^-1)^3",
-    "answer": "x^9/a^3"
-  },
-  {
-    "question": "(2y^2x^-3)^1",
-    "answer": "2y^2/x^3"
-  },
-  {
-    "question": "(5a^0b^-2)^2",
-    "answer": "25/b^4"
-  },
-  {
-    "question": "(-3a^-3y^0)^-3",
-    "answer": "-a^9/27"
-  },
-  {
-    "question": "(4x^-1a^3)^1",
-    "answer": "4a^3/x"
-  },
-  {
-    "question": "(3x^0z^-2)^3",
-    "answer": "27/z^6"
-  },
-  {
-    "question": "(2b^2y^-2)^1",
-    "answer": "2b^2/y^2"
-  },
-  {
-    "question": "(5y^-3z^-2)^3",
-    "answer": "125/(y^9z^6)"
-  },
-  {
-    "question": "(-2x^0a^2)^-2",
-    "answer": "1/(4a^4)"
-  },
-  {
-    "question": "(-1b^1a^1)^-3",
-    "answer": "-1/(a^3b^3)"
-  },
-  {
-    "question": "(-2x^2z^-3)^-2",
-    "answer": "z^6/(4x^4)"
-  },
-  {
-    "question": "(1b^3x^2)^3",
-    "answer": "b^9x^6"
-  },
-  {
-    "question": "(-4b^2y^-3)^0",
+    "question": "(-1a^-3y^3)^0",
     "answer": "1"
   },
   {
-    "question": "(3x^2b^1)^3",
-    "answer": "27b^3x^6"
+    "question": "(2z^1x^-2)^-3",
+    "answer": "x^6/(8z^3)"
   },
   {
-    "question": "(4a^0b^0)^-3",
-    "answer": "1/64"
+    "question": "(-5b^-3a^1)^2",
+    "answer": "25a^2/b^6"
   },
   {
-    "question": "(5b^0a^-3)^3",
-    "answer": "125/a^9"
+    "question": "(5x^3z^1)^2",
+    "answer": "25x^6z^2"
   },
   {
-    "question": "(-5a^-3y^-1)^-2",
-    "answer": "a^6y^2/25"
+    "question": "(-3y^-2z^-3)^1",
+    "answer": "-3/(y^2z^3)"
   },
   {
-    "question": "(3b^1y^1)^-1",
-    "answer": "1/(3by)"
+    "question": "(1y^0a^-3)^-3",
+    "answer": "a^9"
   },
   {
-    "question": "(2z^-3b^1)^-3",
-    "answer": "z^9/(8b^3)"
+    "question": "(-5y^3z^3)^3",
+    "answer": "-125y^9z^9"
   },
   {
-    "question": "(-5z^0b^-2)^-2",
-    "answer": "b^4/25"
+    "question": "(-2x^1z^-2)^2",
+    "answer": "4x^2/z^4"
   },
   {
-    "question": "(-4x^2y^1)^2",
-    "answer": "16x^4y^2"
-  },
-  {
-    "question": "(-2z^0y^1)^3",
-    "answer": "-8y^3"
-  },
-  {
-    "question": "(-1z^3x^2)^0",
+    "question": "(-4x^1y^-2)^0",
     "answer": "1"
   },
   {
-    "question": "(-5x^1b^2)^0",
+    "question": "(-1x^1b^1)^0",
     "answer": "1"
+  },
+  {
+    "question": "(4y^-3b^-1)^1",
+    "answer": "4/(by^3)"
+  },
+  {
+    "question": "(-5b^0a^1)^-1",
+    "answer": "-1/(5a)"
+  },
+  {
+    "question": "(3x^3b^-1)^-3",
+    "answer": "b^3/(27x^9)"
+  },
+  {
+    "question": "(3x^-1z^1)^1",
+    "answer": "3z/x"
+  },
+  {
+    "question": "(5z^-3a^1)^-3",
+    "answer": "z^9/(125a^3)"
+  },
+  {
+    "question": "(-1y^-3b^-3)^-1",
+    "answer": "-b^3y^3"
+  },
+  {
+    "question": "(-4y^0x^2)^0",
+    "answer": "1"
+  },
+  {
+    "question": "(1b^3z^3)^0",
+    "answer": "1"
+  },
+  {
+    "question": "(4b^0x^-1)^-2",
+    "answer": "x^2/16"
+  },
+  {
+    "question": "(2z^0a^-1)^-1",
+    "answer": "a/2"
+  },
+  {
+    "question": "(-2b^0x^2)^3",
+    "answer": "-8x^6"
+  },
+  {
+    "question": "(-3z^2b^0)^-1",
+    "answer": "-1/(3z^2)"
+  },
+  {
+    "question": "(1y^-3a^3)^-1",
+    "answer": "y^3/a^3"
+  },
+  {
+    "question": "(-1z^0x^-3)^1",
+    "answer": "-1/x^3"
+  },
+  {
+    "question": "(4b^0z^-1)^0",
+    "answer": "1"
+  },
+  {
+    "question": "(1z^1y^0)^3",
+    "answer": "z^3"
+  },
+  {
+    "question": "(1b^2z^-1)^3",
+    "answer": "b^6/z^3"
+  },
+  {
+    "question": "(-1b^2x^-1)^0",
+    "answer": "1"
+  },
+  {
+    "question": "(3a^-3y^-1)^-2",
+    "answer": "a^6y^2/9"
+  },
+  {
+    "question": "(3b^1a^-1)^-3",
+    "answer": "a^3/(27b^3)"
+  },
+  {
+    "question": "(-1z^0b^2)^1",
+    "answer": "-b^2"
+  },
+  {
+    "question": "(5a^-1y^-1)^3",
+    "answer": "125/(a^3y^3)"
+  },
+  {
+    "question": "(-3a^-3x^2)^-3",
+    "answer": "-a^9/(27x^6)"
+  },
+  {
+    "question": "(-5z^3a^-3)^3",
+    "answer": "-125z^9/a^9"
+  },
+  {
+    "question": "(1y^3a^-1)^1",
+    "answer": "y^3/a"
+  },
+  {
+    "question": "(-2x^3b^-1)^3",
+    "answer": "-8x^9/b^3"
+  },
+  {
+    "question": "(-3a^1y^0)^-1",
+    "answer": "-1/(3a)"
+  },
+  {
+    "question": "(3b^3z^-2)^3",
+    "answer": "27b^9/z^6"
+  },
+  {
+    "question": "(-1b^1z^1)^2",
+    "answer": "b^2z^2"
+  },
+  {
+    "question": "(1x^0y^2)^0",
+    "answer": "1"
+  },
+  {
+    "question": "(-2y^0z^-3)^0",
+    "answer": "1"
+  },
+  {
+    "question": "(-5a^-3x^1)^-3",
+    "answer": "-a^9/(125x^3)"
+  },
+  {
+    "question": "(-3z^-1b^1)^2",
+    "answer": "9b^2/z^2"
+  },
+  {
+    "question": "(5b^3x^-1)^3",
+    "answer": "125b^9/x^3"
+  },
+  {
+    "question": "(-4z^2y^-3)^2",
+    "answer": "16z^4/y^6"
+  },
+  {
+    "question": "(5x^0b^0)^3",
+    "answer": "125"
+  },
+  {
+    "question": "(2x^-2a^1)^-2",
+    "answer": "x^4/(4a^2)"
+  },
+  {
+    "question": "(-4x^-2y^3)^2",
+    "answer": "16y^6/x^4"
+  },
+  {
+    "question": "(4y^3a^1)^2",
+    "answer": "16a^2y^6"
+  },
+  {
+    "question": "(4a^-1z^-2)^-1",
+    "answer": "az^2/4"
+  },
+  {
+    "question": "(3z^-2y^3)^-2",
+    "answer": "z^4/(9y^6)"
+  },
+  {
+    "question": "(5b^-3a^1)^3",
+    "answer": "125a^3/b^9"
+  },
+  {
+    "question": "(-4y^-3a^-3)^-3",
+    "answer": "-a^9y^9/64"
+  },
+  {
+    "question": "(-2x^1b^2)^1",
+    "answer": "-2b^2x"
+  },
+  {
+    "question": "(-2y^-3b^-3)^-1",
+    "answer": "-b^3y^3/2"
+  },
+  {
+    "question": "(-1x^-3b^1)^-2",
+    "answer": "x^6/b^2"
+  },
+  {
+    "question": "(-2z^0b^1)^0",
+    "answer": "1"
+  },
+  {
+    "question": "(2a^-1y^1)^-3",
+    "answer": "a^3/(8y^3)"
+  },
+  {
+    "question": "(2a^0z^-3)^3",
+    "answer": "8/z^9"
   },
   {
     "question": "(2a^2y^-1)^1",
     "answer": "2a^2/y"
   },
   {
-    "question": "(-5x^-1z^1)^-3",
-    "answer": "-x^3/(125z^3)"
-  },
-  {
-    "question": "(2b^0a^2)^0",
+    "question": "(-4b^3z^0)^0",
     "answer": "1"
   },
   {
-    "question": "(1b^2z^2)^1",
-    "answer": "b^2z^2"
+    "question": "(-5x^3z^1)^-2",
+    "answer": "1/(25x^6z^2)"
   },
   {
-    "question": "(5b^-3y^-3)^0",
+    "question": "(-5b^-3y^1)^-1",
+    "answer": "-b^3/(5y)"
+  },
+  {
+    "question": "(-4b^-3y^-3)^0",
     "answer": "1"
   },
   {
-    "question": "(-4b^1z^0)^2",
-    "answer": "16b^2"
+    "question": "(-3b^0z^-2)^2",
+    "answer": "9/z^4"
   },
   {
-    "question": "(-5a^1x^-2)^0",
+    "question": "(-1a^-2y^-1)^3",
+    "answer": "-1/(a^6y^3)"
+  },
+  {
+    "question": "(-4b^0a^-2)^3",
+    "answer": "-64/a^6"
+  },
+  {
+    "question": "(-2z^-1b^2)^2",
+    "answer": "4b^4/z^2"
+  },
+  {
+    "question": "(2z^-3b^1)^2",
+    "answer": "4b^2/z^6"
+  },
+  {
+    "question": "(4b^-1a^0)^1",
+    "answer": "4/b"
+  },
+  {
+    "question": "(-2a^-3z^-1)^0",
     "answer": "1"
   },
   {
-    "question": "(1y^3b^0)^0",
+    "question": "(-4b^1a^-2)^-2",
+    "answer": "a^4/(16b^2)"
+  },
+  {
+    "question": "(-4x^-2z^2)^0",
     "answer": "1"
   },
   {
-    "question": "(4z^0x^0)^3",
-    "answer": "64"
+    "question": "(2b^-1z^0)^-1",
+    "answer": "b/2"
   },
   {
-    "question": "(1y^0x^1)^-3",
-    "answer": "x^(-3)"
+    "question": "(4a^-1y^-1)^2",
+    "answer": "16/(a^2y^2)"
   },
   {
-    "question": "(2y^2b^2)^-3",
-    "answer": "1/(8b^6y^6)"
+    "question": "(-2x^0y^2)^1",
+    "answer": "-2y^2"
   },
   {
-    "question": "(-2b^1x^-1)^2",
-    "answer": "4b^2/x^2"
+    "question": "(-2a^0y^-3)^1",
+    "answer": "-2/y^3"
   },
   {
-    "question": "(3z^2x^3)^-1",
-    "answer": "1/(3x^3z^2)"
+    "question": "(3b^-2a^1)^1",
+    "answer": "3a/b^2"
   },
   {
-    "question": "(-3z^2b^2)^2",
-    "answer": "9b^4z^4"
+    "question": "(-5a^-1x^-2)^3",
+    "answer": "-125/(a^3x^6)"
   },
   {
-    "question": "(3a^3x^-2)^0",
-    "answer": "1"
+    "question": "(-3a^3y^0)^2",
+    "answer": "9a^6"
   },
   {
-    "question": "(3a^-3x^-3)^0",
-    "answer": "1"
+    "question": "(4x^-3a^3)^1",
+    "answer": "4a^3/x^3"
   },
   {
-    "question": "(-4z^0x^2)^1",
-    "answer": "-4x^2"
+    "question": "(5x^0a^1)^-2",
+    "answer": "1/(25a^2)"
   },
   {
-    "question": "(5z^3x^1)^-2",
-    "answer": "1/(25x^2z^6)"
+    "question": "(3b^3z^1)^-2",
+    "answer": "1/(9b^6z^2)"
   },
   {
-    "question": "(2z^-3b^-2)^0",
-    "answer": "1"
+    "question": "(4a^2x^-1)^-1",
+    "answer": "x/(4a^2)"
   },
   {
-    "question": "(2y^2b^2)^1",
-    "answer": "2b^2y^2"
+    "question": "(-1z^0x^3)^-3",
+    "answer": "-1/x^9"
   },
   {
-    "question": "(4a^3b^-3)^-2",
-    "answer": "b^6/(16a^6)"
+    "question": "(-5b^1a^-3)^1",
+    "answer": "-5b/a^3"
   },
   {
-    "question": "(-1z^3y^-2)^-2",
-    "answer": "y^4/z^6"
+    "question": "(-2a^3b^3)^-1",
+    "answer": "-1/(2a^3b^3)"
   },
   {
-    "question": "(1a^0x^3)^-1",
-    "answer": "x^(-3)"
+    "question": "(4y^0a^1)^-3",
+    "answer": "1/(64a^3)"
   },
   {
-    "question": "(-5b^-3z^3)^2",
-    "answer": "25z^6/b^6"
+    "question": "(-2a^1x^3)^-3",
+    "answer": "-1/(8a^3x^9)"
   },
   {
-    "question": "(2b^-3y^-1)^3",
-    "answer": "8/(b^9y^3)"
+    "question": "(-1x^-2a^-3)^-3",
+    "answer": "-a^9x^6"
   },
   {
-    "question": "(-2a^3b^0)^2",
-    "answer": "4a^6"
+    "question": "(1z^1x^-1)^-2",
+    "answer": "x^2/z^2"
   },
   {
-    "question": "(1a^1z^-3)^3",
-    "answer": "a^3/z^9"
+    "question": "(-5x^-3b^-2)^-3",
+    "answer": "-b^6x^9/125"
   },
   {
-    "question": "(-4a^1z^-1)^2",
-    "answer": "16a^2/z^2"
+    "question": "(-4y^0a^2)^-2",
+    "answer": "1/(16a^4)"
   },
   {
-    "question": "(-2z^3b^1)^-1",
-    "answer": "-1/(2bz^3)"
-  },
-  {
-    "question": "(4a^-3z^1)^1",
-    "answer": "4z/a^3"
-  },
-  {
-    "question": "(-1x^-2a^3)^3",
-    "answer": "-a^9/x^6"
-  },
-  {
-    "question": "(2b^3z^2)^2",
-    "answer": "4b^6z^4"
-  },
-  {
-    "question": "(4a^3z^-3)^0",
-    "answer": "1"
-  },
-  {
-    "question": "(-2z^1b^-2)^-1",
-    "answer": "-b^2/(2z)"
-  },
-  {
-    "question": "(1z^-2x^0)^3",
-    "answer": "z^(-6)"
-  },
-  {
-    "question": "(-4b^-1a^1)^2",
-    "answer": "16a^2/b^2"
-  },
-  {
-    "question": "(-2b^2a^1)^-1",
-    "answer": "-1/(2ab^2)"
-  },
-  {
-    "question": "(5b^0y^3)^2",
-    "answer": "25y^6"
-  },
-  {
-    "question": "(-2a^0z^2)^1",
-    "answer": "-2z^2"
-  },
-  {
-    "question": "(-5a^-1b^2)^3",
-    "answer": "-125b^6/a^3"
-  },
-  {
-    "question": "(3x^2b^2)^2",
-    "answer": "9b^4x^4"
-  },
-  {
-    "question": "(-5a^-1z^-1)^1",
-    "answer": "-5/(az)"
-  },
-  {
-    "question": "(5x^0b^1)^-2",
-    "answer": "1/(25b^2)"
-  },
-  {
-    "question": "(-3x^-1a^-3)^-2",
-    "answer": "a^6x^2/9"
-  },
-  {
-    "question": "(2x^-1b^2)^-1",
-    "answer": "x/(2b^2)"
-  },
-  {
-    "question": "(-4b^-1z^-3)^-3",
-    "answer": "-b^3z^9/64"
-  },
-  {
-    "question": "(-5z^1y^1)^0",
-    "answer": "1"
-  },
-  {
-    "question": "(3a^1x^2)^1",
-    "answer": "3ax^2"
-  },
-  {
-    "question": "(-3a^-3b^-1)^-3",
-    "answer": "-a^9b^3/27"
-  },
-  {
-    "question": "(1a^-3x^-1)^-1",
-    "answer": "a^3x"
-  },
-  {
-    "question": "(-4y^1z^-2)^0",
-    "answer": "1"
-  },
-  {
-    "question": "(-5a^-3x^-1)^2",
-    "answer": "25/(a^6x^2)"
-  },
-  {
-    "question": "(1z^3x^3)^1",
-    "answer": "x^3z^3"
-  },
-  {
-    "question": "(-2z^3x^-3)^1",
-    "answer": "-2z^3/x^3"
-  },
-  {
-    "question": "(-4y^3a^0)^2",
-    "answer": "16y^6"
-  },
-  {
-    "question": "(-5x^-1b^2)^1",
-    "answer": "-5b^2/x"
-  },
-  {
-    "question": "(3y^0x^-1)^-2",
-    "answer": "x^2/9"
-  },
-  {
-    "question": "(-1y^3b^-3)^-1",
-    "answer": "-b^3/y^3"
-  },
-  {
-    "question": "(3y^2b^0)^-2",
-    "answer": "1/(9y^4)"
-  },
-  {
-    "question": "(1x^-1a^-3)^-3",
-    "answer": "a^9x^3"
-  },
-  {
-    "question": "(5z^-2a^1)^3",
-    "answer": "125a^3/z^6"
-  },
-  {
-    "question": "(1y^-3z^-2)^1",
-    "answer": "1/(y^3z^2)"
-  },
-  {
-    "question": "(1b^-1z^-2)^1",
-    "answer": "1/(bz^2)"
-  },
-  {
-    "question": "(-2z^3a^2)^-2",
-    "answer": "1/(4a^4z^6)"
-  },
-  {
-    "question": "(2z^3x^-2)^-1",
-    "answer": "x^2/(2z^3)"
-  },
-  {
-    "question": "(-3x^-2b^2)^-3",
-    "answer": "-x^6/(27b^6)"
-  },
-  {
-    "question": "(4x^0a^2)^0",
-    "answer": "1"
-  },
-  {
-    "question": "(-3b^-3y^-1)^-3",
-    "answer": "-b^9y^3/27"
-  },
-  {
-    "question": "(-1b^1x^-2)^3",
-    "answer": "-b^3/x^6"
-  },
-  {
-    "question": "(-2z^-1y^3)^-1",
-    "answer": "-z/(2y^3)"
-  },
-  {
-    "question": "(-3a^1z^1)^-2",
-    "answer": "1/(9a^2z^2)"
-  },
-  {
-    "question": "(-4b^-2y^-2)^0",
-    "answer": "1"
-  },
-  {
-    "question": "(3y^2x^-1)^-3",
-    "answer": "x^3/(27y^6)"
-  },
-  {
-    "question": "(4y^2b^0)^3",
-    "answer": "64y^6"
-  },
-  {
-    "question": "(4z^2b^-3)^-2",
-    "answer": "b^6/(16z^4)"
-  },
-  {
-    "question": "(-3b^-2a^3)^3",
-    "answer": "-27a^9/b^6"
-  },
-  {
-    "question": "(1z^3a^2)^1",
-    "answer": "a^2z^3"
-  },
-  {
-    "question": "(2b^-1a^0)^0",
-    "answer": "1"
-  },
-  {
-    "question": "(-4a^1x^1)^2",
-    "answer": "16a^2x^2"
-  },
-  {
-    "question": "(-4a^2z^-3)^2",
-    "answer": "16a^4/z^6"
+    "question": "(-4y^3z^2)^2",
+    "answer": "16y^6z^4"
   }
 ]
