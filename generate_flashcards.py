@@ -12,11 +12,10 @@ exp_range = list(range(-3, 4))    # exponents from -3 to 3
 flashcards = []
 
 def format_expr(expr):
-    """Format Sympy expression into plain text with ^ for exponents."""
+    """Format Sympy expression into plain text with ^ for exponents, no *."""
     s = sp.sstr(expr)  # Sympy string
-    # Replace ** with ^ and remove * between variables/numbers
-    s = s.replace("**", "^")
-    s = s.replace("*", "")
+    s = s.replace("**", "^")  # Python power -> ^
+    s = s.replace("*", "")    # Remove multiplication signs
     return s
 
 def generate_flashcard():
@@ -37,7 +36,7 @@ def generate_flashcard():
 
     return {
         "question": question,
-        "answer": format_expr(simplified)   # student-friendly format
+        "answer": format_expr(simplified)   # clean plain-text answer
     }
 
 # Generate 120 flashcards
